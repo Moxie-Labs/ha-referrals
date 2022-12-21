@@ -1,0 +1,33 @@
+{
+  "name": "ha-referral-app",
+  "version": "1.0.0",
+  "description": "Home Appetite referral application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node apollo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moxie-Labs/ha-referral-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moxie-Labs/ha-referral-app/issues"
+  },
+  "homepage": "https://github.com/Moxie-Labs/ha-referral-app#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql": "^16.6.0",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20"
+  }
+}
